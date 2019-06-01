@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ujjawalayush.example.managemyyatra">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Signup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Verify">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Verify" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.MainPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".Phone">
+        <intent-filter>
+            <action android:name="com.ujjawalayush.example.managemyyatra.Phone" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".Group">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Group" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddFriends">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.AddFriends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Expense">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Expense" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Recommend">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Recommend" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Reactions">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Reactions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".SeeExpense">
+        <intent-filter>
+            <action android:name="com.ujjawalayush.example.managemyyatra.SeeExpense" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".Places">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Places" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".Chat">
+        <intent-filter>
+            <action android:name="com.ujjawalayush.example.managemyyatra.Chat" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".Pictures">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Pictures" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.Add" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.managemyyatra.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

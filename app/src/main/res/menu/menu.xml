@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/faq"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:title="FAQ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/shareApp"
+        android:icon="?attr/actionModeShareDrawable"
+        android:title="Share App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rateIt"
+        android:icon="@drawable/ic_rate_review_black_24dp"
+        android:title="Rate it"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Log Out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:title="About App" />
+</menu>

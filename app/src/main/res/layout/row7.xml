@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:id="@+id/card_view6"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/mainLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCategory7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtComment7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtDate7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtName7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
